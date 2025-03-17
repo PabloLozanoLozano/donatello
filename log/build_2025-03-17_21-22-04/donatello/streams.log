@@ -1,0 +1,32 @@
+[0.010s] Invoking command in '/home/pablo/ros/ros2home_ws/src/donatello/build/donatello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pablo/ros/ros2home_ws/src/donatello/build/donatello -- -j12 -l12
+[0.037s] Invoked command in '/home/pablo/ros/ros2home_ws/src/donatello/build/donatello' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pablo/ros/ros2home_ws/src/donatello/build/donatello -- -j12 -l12
+[0.044s] Invoking command in '/home/pablo/ros/ros2home_ws/src/donatello/build/donatello': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pablo/ros/ros2home_ws/src/donatello/build/donatello
+[0.049s] -- Install configuration: ""
+[0.049s] -- Execute custom install script
+[0.050s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/config/drive_donatello.rviz
+[0.050s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/config/empty.yaml
+[0.050s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/config/view_bot.rviz
+[0.050s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/description/gazebo_control.xacro
+[0.050s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/description/inertial_macros.xacro
+[0.051s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/description/robot.urdf.xacro
+[0.051s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/description/robot_core.xacro
+[0.051s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/launch/launch_sim.launch.py
+[0.051s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/launch/rsp.launch.py
+[0.051s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/worlds/empty.world
+[0.052s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/worlds/obstacles.world
+[0.052s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/ament_index/resource_index/package_run_dependencies/donatello
+[0.052s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/ament_index/resource_index/parent_prefix_path/donatello
+[0.052s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/environment/ament_prefix_path.sh
+[0.052s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/environment/ament_prefix_path.dsv
+[0.052s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/environment/path.sh
+[0.052s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/environment/path.dsv
+[0.053s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/local_setup.bash
+[0.053s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/local_setup.sh
+[0.053s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/local_setup.zsh
+[0.053s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/local_setup.dsv
+[0.053s] -- Symlinking: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/package.dsv
+[0.060s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/ament_index/resource_index/packages/donatello
+[0.060s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/cmake/donatelloConfig.cmake
+[0.060s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/cmake/donatelloConfig-version.cmake
+[0.060s] -- Up-to-date symlink: /home/pablo/ros/ros2home_ws/src/donatello/install/donatello/share/donatello/package.xml
+[0.062s] Invoked command in '/home/pablo/ros/ros2home_ws/src/donatello/build/donatello' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pablo/ros/ros2home_ws/src/donatello/build/donatello

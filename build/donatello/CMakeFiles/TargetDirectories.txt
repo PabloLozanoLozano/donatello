@@ -1,0 +1,9 @@
+/home/pablo/ros/ros2home_ws/src/donatello/build/donatello/CMakeFiles/uninstall.dir
+/home/pablo/ros/ros2home_ws/src/donatello/build/donatello/CMakeFiles/donatello_uninstall.dir
+/home/pablo/ros/ros2home_ws/src/donatello/build/donatello/CMakeFiles/test.dir
+/home/pablo/ros/ros2home_ws/src/donatello/build/donatello/CMakeFiles/edit_cache.dir
+/home/pablo/ros/ros2home_ws/src/donatello/build/donatello/CMakeFiles/rebuild_cache.dir
+/home/pablo/ros/ros2home_ws/src/donatello/build/donatello/CMakeFiles/list_install_components.dir
+/home/pablo/ros/ros2home_ws/src/donatello/build/donatello/CMakeFiles/install.dir
+/home/pablo/ros/ros2home_ws/src/donatello/build/donatello/CMakeFiles/install/local.dir
+/home/pablo/ros/ros2home_ws/src/donatello/build/donatello/CMakeFiles/install/strip.dir
