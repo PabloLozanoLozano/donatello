@@ -7,4 +7,3 @@ As part of my final degree project, I will be integrating additional sensors int
 All of this work will be carried out using ROS2 Humble.
 
 (This project is supervised by [@jmgandarias](https://github.com/jmgandarias))
-
