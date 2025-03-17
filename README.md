@@ -1,7 +1,10 @@
-## Robot Package Template
+## Donatello Robot Package(RoboRescue UMA)
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+This repository is a package for Donatello, a robot designed and assembled by RoboRescue, a team from the University of Málaga.
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `donatello` to whatever your project's name is.
+As part of my final degree project, I will be integrating additional sensors into Donatello, including a LiDAR, a depth camera, and an IMU. Additionally, I will develop a QtCreator-based interface to monitor the sensor readings and once these features are implemented, I will upgrade Donatello with Nav2 to enable autonomous navigation.
 
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+All of this work will be carried out using ROS2 Humble.
+
+(This project is supervised by [@jmgandarias](https://github.com/jmgandarias)
+
