@@ -20,24 +20,33 @@ def generate_launch_description():
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory(package_name),'launch','rsp.launch.py'
-                )]), launch_arguments={'use_sim_time': 'true'}.items()
+                )]), launch_arguments={'use_sim_time': 'false'}.items()
     )
 
-    # Includes the Gazebo launch file, provided by the gazebo_ros package
-    gazebo = IncludeLaunchDescription(
-                PythonLaunchDescriptionSource([os.path.join(
-                    get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
-             )
+    # RViz2
+    rviz_node = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        arguments=['-d', os.path.join(
+            get_package_share_directory(package_name),
+            'rviz',
+            'donatello1.rviz' 
+        )],
+        output='screen'
+    )
 
-    # Runs the spawner node from the gazebo_ros package.
-    spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
-                        arguments=['-topic', 'robot_description',
-                                   '-entity', 'my_bot'],
-                        output='screen')
+    # Lanza el nodo que publica en /odom a partir de /motor_feedback_vel
+    real_odom_node = Node(
+        package='donatello_py',
+        executable='real_odometry_publisher',
+        name='real_odometry_publisher',
+        output='screen'
+    )
 
     # Launch them all
     return LaunchDescription([
         rsp,
-        gazebo,
-        spawn_entity,
+        real_odom_node,
+        rviz_node
     ])
