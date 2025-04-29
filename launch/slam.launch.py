@@ -39,9 +39,6 @@ def generate_launch_description():
             executable='async_slam_toolbox_node',
             name='slam_toolbox_node',
             output='screen',
-            parameters=[slam_params],
-            remappings=[
-                ('/scan', '/rplidar/scan')
-            ]
+            parameters=[slam_params]
         )
     ])
