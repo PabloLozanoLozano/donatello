@@ -22,12 +22,12 @@ def generate_launch_description():
     # )
 
     return LaunchDescription([
-        # Incluir el launch del LiDAR
+        # Launch del LiDAR
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(rplidar_launch),
         ),
         
-        # # Incluir el launch de la cámara Realsense
+        # # Launch de la cámara Realsense
         # IncludeLaunchDescription(
         #     PythonLaunchDescriptionSource(realsense_launch),
         #     launch_arguments={
