@@ -14,7 +14,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
 
 
-    # Includes the robot_state_publisher launch file, and forces sim time to be enabled
+    # Includes the robot_state_publisher launch file, and forces sim time to be disabled
     package_name='donatello' 
 
     rsp = IncludeLaunchDescription(
@@ -23,6 +23,20 @@ def generate_launch_description():
                 )]), launch_arguments={'use_sim_time': 'false'}.items()
     )
 
+    # Joystick launch
+    joystick = IncludeLaunchDescription(
+                PythonLaunchDescriptionSource([os.path.join(
+                    get_package_share_directory(package_name),'launch', 'joystick.launch.py'
+                )])
+    )
+
+    # Twist Mux
+    twist_mux_params = os.path.join(get_package_share_directory(package_name), 'config', 'twist_mux.yaml' )
+    twist_mux = Node(
+            package="twist_mux",
+            executable="twist_mux",
+            parameters=[twist_mux_params],
+    )
     # RViz2
     rviz_node = Node(
         package='rviz2',
@@ -48,6 +62,8 @@ def generate_launch_description():
     # Launch them all
     return LaunchDescription([
         rsp,
+        joystick,
+        twist_mux,
         real_odom_node,
         rviz_node
     ])
