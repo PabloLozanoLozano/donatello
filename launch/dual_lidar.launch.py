@@ -8,7 +8,7 @@ def generate_launch_description():
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
-            arguments=['-0.24', '0', '0.0', '0', '0', '0', 'base_link', 'laser1'],
+            arguments=['0', '0', '0.45', '0', '0', '0', 'base_link', 'laser1'],
         ),
 
         # # TF LiDAR 2
